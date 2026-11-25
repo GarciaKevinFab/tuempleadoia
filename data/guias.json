@@ -81,5 +81,78 @@
   "fecha": "2026-11-24",
   "tema": "Las novedades creativas de Gemini para WhatsApp: Notas de voz y stickers generados por inteligencia artificial - MovilZona",
   "video": "jsijVcAD2mE"
+ },
+ {
+  "titulo": "Guía Hunty: Contrata por WhatsApp en Perú",
+  "resumen": "Configura Hunty para que su IA entreviste y filtre candidatos 24/7 por WhatsApp y contrates en días.",
+  "para_quien": "Dueños de restaurantes, bodegas o tiendas en Perú que necesitan personal operativo rápido.",
+  "tiempo": "20-30 minutos para empezar",
+  "costo": "Gratis para demo / Precios bajo consulta (revisa actual)",
+  "pasos": [
+   {
+    "titulo": "Visita hunty.com y agenda demo",
+    "detalle": "Entra a hunty.com desde tu celular o PC. Haz clic en 'Book a demo' o 'Agenda tu demo'. Elige un horario de 15-30 minutos."
+   },
+   {
+    "titulo": "Define la vacante y preguntas",
+    "detalle": "Describe el puesto, requisitos y salario. Crea 5-8 preguntas personalizadas para la IA, como experiencia y disponibilidad."
+   },
+   {
+    "titulo": "Genera QR o link de WhatsApp",
+    "detalle": "La plataforma crea un código QR o enlace. Imprímelo en carteles o compártelo en redes y grupos locales."
+   },
+   {
+    "titulo": "Promociona la oferta en Perú",
+    "detalle": "Publica en Facebook, grupos de Lima o Arequipa y pega el QR. Los candidatos escanean y chatean con la IA de Hunty."
+   },
+   {
+    "titulo": "Revisa el ranking de candidatos",
+    "detalle": "En el panel ves perfiles ordenados por puntaje. Solo revisas los mejores; la IA filtra automáticamente."
+   },
+   {
+    "titulo": "Contacta y contrata los mejores",
+    "detalle": "La IA pide documentos y agenda entrevistas. Tú decides y contratas en días, no semanas."
+   }
+  ],
+  "herramientas": [
+   {
+    "nombre": "Hunty",
+    "para_que": "Entrevistas automáticas por WhatsApp y ranking de candidatos",
+    "precio": "Bajo consulta (revisa actual)"
+   },
+   {
+    "nombre": "WhatsApp Business",
+    "para_que": "Canal principal para que candidatos chateen con la IA",
+    "precio": "Gratis"
+   }
+  ],
+  "plantilla": "Hola, busco mesero para Cevichería El Puerto en Lima. Experiencia mínima 6 meses, disponibilidad full time, lunes a domingo. Responde sí para iniciar entrevista automática con IA por WhatsApp.",
+  "errores": [
+   "No personalizar las preguntas: la IA da mejores resultados con requisitos específicos de tu negocio.",
+   "Publicar solo en un canal: combina QR en tienda, redes y grupos locales de Perú para más candidatos.",
+   "Saltarte la revisión final: siempre verifica documentos y haz entrevista humana antes de contratar."
+  ],
+  "fuentes": [
+   {
+    "nombre": "Hunty sitio oficial",
+    "url": "https://hunty.com/"
+   },
+   {
+    "nombre": "Forbes Colombia",
+    "url": "https://forbes.co/2025/08/01/emprendedores/hunty-reclutamiento-ia/"
+   },
+   {
+    "nombre": "El Tiempo",
+    "url": "https://www.eltiempo.com/economia/finanzas-personales/hunty-revoluciona-la-seleccion-de-personal-con-inteligencia-artificial-automatizada-3603829"
+   },
+   {
+    "nombre": "Ecosistema Startup",
+    "url": "https://ecosistemastartup.com/hunty-ia-de-reclutamiento-por-whatsapp-para-latam/"
+   }
+  ],
+  "palabra": "WHATSAPP",
+  "slug": "whatsapp",
+  "fecha": "2026-11-25",
+  "tema": "Hunty: IA de reclutamiento por WhatsApp para LATAM - El Ecosistema Startup"
  }
 ]

@@ -5,15 +5,14 @@
 <h1>Escribe la <em>palabra</em> del video</h1>
 <p class="lead">Cada video de Tu Empleado IA tiene una palabra. Escríbela aquí y abre su guía paso a paso, gratis.</p>
 <div class="box"><label for="p">Palabra del video</label><div class="row"><input id="p" placeholder="Ej: WHATSAPP" autocomplete="off"><button onclick="ir()">Abrir guía</button></div><div id="msg"></div></div>
-<h2>Todas las guías (2)</h2><div class="list"><a class="card" href="https://garciakevinfab.github.io/tuempleadoia/g/gemini.html"><span class="tag">GEMINI</span><h3>Guía Gemini: stickers y voces IA para WhatsApp</h3><p>Aprende a crear stickers y notas de voz personalizadas con Gemini para promocionar tu negocio.</p></a>
+<h2>Todas las guías (3)</h2><div class="list"><a class="card" href="https://garciakevinfab.github.io/tuempleadoia/g/whatsapp.html"><span class="tag">WHATSAPP</span><h3>Guía Hunty: Contrata por WhatsApp en Perú</h3><p>Configura Hunty para que su IA entreviste y filtre candidatos 24/7 por WhatsApp y contrates en días.</p></a>
+<a class="card" href="https://garciakevinfab.github.io/tuempleadoia/g/gemini.html"><span class="tag">GEMINI</span><h3>Guía Gemini: stickers y voces IA para WhatsApp</h3><p>Aprende a crear stickers y notas de voz personalizadas con Gemini para promocionar tu negocio.</p></a>
 <a class="card" href="https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"><span class="tag">GUIA</span><h3>7 automatizaciones con IA para tu negocio</h3><p>La guía base del canal: siete automatizaciones paso a paso y sin programar.</p></a></div>
-<script>const M={"GUIA": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view", "GEMINI": "https://garciakevinfab.github.io/tuempleadoia/g/gemini.html"};
+<script>const M={"GUIA": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view", "GEMINI": "https://garciakevinfab.github.io/tuempleadoia/g/gemini.html", "WHATSAPP": "https://garciakevinfab.github.io/tuempleadoia/g/whatsapp.html"};
 function n(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]/g,'')}
 function ir(){const k=n(document.getElementById('p').value);if(M[k]){location.href=M[k]}else{document.getElementById('msg').textContent='No encontré esa palabra. Revisa cómo aparece en el video.'}}
 document.getElementById('p').addEventListener('keydown',e=>{if(e.key==='Enter')ir()});
 const q=new URLSearchParams(location.search).get('p');if(q){document.getElementById('p').value=q;ir()}</script>
-<div class="yt"><svg width="34" height="24" viewBox="0 0 68 48" aria-label="YouTube"><path d="M66.5 7.7c-.8-2.9-2.5-5.4-5.4-6.2C55.8.1 34 0 34 0S12.2.1 6.9 1.6C4 2.4 2.3 4.8 1.5 7.7.1 13 0 24 0 24s.1 11 1.5 16.3c.8 2.9 2.5 5.4 5.4 6.2C12.2 47.9 34 48 34 48s21.8-.1 27.1-1.6c2.9-.8 4.6-3.2 5.4-6.2C67.9 35 68 24 68 24s-.1-11-1.5-16.3z" fill="#FF0000"/><path d="M45 24 27 14v20" fill="#fff"/></svg>
-<div><b>Nuestros canales en YouTube</b><br><a href="https://www.youtube.com/@TuEmpleadoIA">Tu Empleado IA</a> · <a href="https://www.youtube.com/@YaSalioTech">Ya Salió Tech</a></div></div>
-<footer><a href="https://www.youtube.com/@TuEmpleadoIA">YouTube</a><a href="./privacidad.html">Política de privacidad</a><a href="./terminos.html">Términos del servicio</a>
+<footer><a href="https://www.youtube.com/@TuEmpleadoIA">YouTube</a><a href="./privacidad.html">Privacidad</a><a href="./terminos.html">Términos</a>
 <p>Guías gratuitas con fines informativos. Los precios y funciones de las herramientas cambian: revísalos en su web oficial.</p></footer>
 </div></body></html>

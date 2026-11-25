@@ -16,5 +16,4 @@ ol.pasos{padding-left:0;list-style:none;counter-reset:p}ol.pasos li{counter-incr
 ol.pasos li:before{content:counter(p);position:absolute;left:16px;top:14px;width:32px;height:32px;border-radius:50%;background:#C6FF3D;color:#0D0B1F;font-weight:900;display:grid;place-items:center}
 ol.pasos b{display:block;margin-bottom:4px}table{width:100%;border-collapse:collapse;font-size:15px}td,th{text-align:left;padding:10px;border-bottom:1px solid rgba(255,255,255,.1)}th{color:#B9B3D9}
 pre{white-space:pre-wrap;background:#000;border-left:4px solid #C6FF3D;padding:14px;border-radius:10px;font-size:15px}
-.yt{display:flex;gap:14px;align-items:center;margin-top:36px;padding:16px 18px;background:#17132E;border-radius:14px}
 .nota{font-size:14px;color:#B9B3D9}footer{margin-top:40px;font-size:14px;color:#B9B3D9}footer a{margin-right:14px}
