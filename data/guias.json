@@ -1,0 +1,84 @@
+[
+ {
+  "palabra": "GUIA",
+  "slug": "guia",
+  "titulo": "7 automatizaciones con IA para tu negocio",
+  "resumen": "La guía base del canal: siete automatizaciones paso a paso y sin programar.",
+  "externa": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view",
+  "fecha": "2026-11-19"
+ },
+ {
+  "titulo": "Guía Gemini: stickers y voces IA para WhatsApp",
+  "resumen": "Aprende a crear stickers y notas de voz personalizadas con Gemini para promocionar tu negocio.",
+  "para_quien": "Dueños de bodegas, tiendas o restaurantes en Perú que usan WhatsApp diariamente.",
+  "tiempo": "15-30 minutos",
+  "costo": "Gratis con Gemini (puede requerir suscripción Google One en el futuro)",
+  "pasos": [
+   {
+    "titulo": "Abre la app Gemini",
+    "detalle": "Descarga o actualiza la app Gemini en tu Android. Inicia sesión con tu cuenta de Google."
+   },
+   {
+    "titulo": "Genera imágenes para stickers",
+    "detalle": "Describe tu producto en español. Ejemplo: 'Crea un sticker estilo cartoon de un vaso de jugo de naranja fresco para WhatsApp'."
+   },
+   {
+    "titulo": "Descarga las imágenes",
+    "detalle": "Guarda las imágenes generadas en tu galería. Usa formato WebP si está disponible o convierte con una app gratuita."
+   },
+   {
+    "titulo": "Crea el sticker en WhatsApp",
+    "detalle": "Abre WhatsApp, ve a stickers > Crear, selecciona la imagen y recórtala. Repite para varios diseños."
+   },
+   {
+    "titulo": "Prueba voces personalizadas",
+    "detalle": "En Gemini, pide 'Crea una nota de voz con acento peruano' o describe el tono. Graba o usa la salida de audio."
+   },
+   {
+    "titulo": "Comparte en chats",
+    "detalle": "Envía los stickers o notas de voz a clientes. Prueba con un pack de 5-8 diseños para tu bodega."
+   },
+   {
+    "titulo": "Organiza y reutiliza",
+    "detalle": "Guarda los stickers en una carpeta. Actualiza cada semana con nuevos productos."
+   }
+  ],
+  "herramientas": [
+   {
+    "nombre": "App Gemini",
+    "para_que": "Generar imágenes y voces con IA",
+    "precio": "Gratis (versión básica)"
+   },
+   {
+    "nombre": "WhatsApp",
+    "para_que": "Crear y enviar stickers",
+    "precio": "Gratis"
+   },
+   {
+    "nombre": "Editor de fotos básico",
+    "para_que": "Recortar y convertir imágenes",
+    "precio": "Gratis en Play Store"
+   }
+  ],
+  "plantilla": "Crea un pack de stickers para mi bodega 'La Esquina Fresca' en Lima: jugo de naranja, pan con chicharrón y gaseosa. Estilo cartoon colorido, fondo blanco, texto '¡Prueba hoy!' en cada uno. Genera 6 diseños listos para WhatsApp.",
+  "errores": [
+   "Usar descripciones vagas: sé específico con el producto y estilo.",
+   "Olvidar el formato WebP: verifica que las imágenes se vean bien en WhatsApp.",
+   "No probar en chats reales: envía primero a ti mismo para ajustar."
+  ],
+  "fuentes": [
+   {
+    "nombre": "Android Authority",
+    "url": "https://www.androidauthority.com/google-gemini-sticker-creation-apk-teardown-3738636/"
+   },
+   {
+    "nombre": "MovilZona",
+    "url": "https://www.movilzona.es/noticias/aplicaciones/novedades-creativas-gemini-whatsapp-stickers-notas-voz/"
+   }
+  ],
+  "palabra": "GEMINI",
+  "slug": "gemini",
+  "fecha": "2026-11-24",
+  "tema": "Las novedades creativas de Gemini para WhatsApp: Notas de voz y stickers generados por inteligencia artificial - MovilZona"
+ }
+]

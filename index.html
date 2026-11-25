@@ -5,8 +5,9 @@
 <h1>Escribe la <em>palabra</em> del video</h1>
 <p class="lead">Cada video de Tu Empleado IA tiene una palabra. Escríbela aquí y abre su guía paso a paso, gratis.</p>
 <div class="box"><label for="p">Palabra del video</label><div class="row"><input id="p" placeholder="Ej: WHATSAPP" autocomplete="off"><button onclick="ir()">Abrir guía</button></div><div id="msg"></div></div>
-<h2>Todas las guías (1)</h2><div class="list"><a class="card" href="https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"><span class="tag">GUIA</span><h3>7 automatizaciones con IA para tu negocio</h3><p>La guía base del canal: siete automatizaciones paso a paso y sin programar.</p></a></div>
-<script>const M={"GUIA": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"};
+<h2>Todas las guías (2)</h2><div class="list"><a class="card" href="https://garciakevinfab.github.io/tuempleadoia/g/gemini.html"><span class="tag">GEMINI</span><h3>Guía Gemini: stickers y voces IA para WhatsApp</h3><p>Aprende a crear stickers y notas de voz personalizadas con Gemini para promocionar tu negocio.</p></a>
+<a class="card" href="https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"><span class="tag">GUIA</span><h3>7 automatizaciones con IA para tu negocio</h3><p>La guía base del canal: siete automatizaciones paso a paso y sin programar.</p></a></div>
+<script>const M={"GUIA": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view", "GEMINI": "https://garciakevinfab.github.io/tuempleadoia/g/gemini.html"};
 function n(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]/g,'')}
 function ir(){const k=n(document.getElementById('p').value);if(M[k]){location.href=M[k]}else{document.getElementById('msg').textContent='No encontré esa palabra. Revisa cómo aparece en el video.'}}
 document.getElementById('p').addEventListener('keydown',e=>{if(e.key==='Enter')ir()});
