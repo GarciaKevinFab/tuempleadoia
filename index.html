@@ -1,0 +1,16 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guías gratis · Tu Empleado IA</title><meta name="description" content="Guías gratis de inteligencia artificial para tu negocio: escribe la palabra del video."><meta property="og:title" content="Guías gratis · Tu Empleado IA"><meta property="og:description" content="Guías gratis de inteligencia artificial para tu negocio: escribe la palabra del video.">
+<link rel="stylesheet" href="./estilo.css"></head><body><div class="w">
+<a class="top" href="./index.html" style="text-decoration:none;color:inherit"><div class="logo">IA</div><div><b>Tu Empleado IA</b><span>Guías gratis de IA para tu negocio</span></div></a>
+<h1>Escribe la <em>palabra</em> del video</h1>
+<p class="lead">Cada video de Tu Empleado IA tiene una palabra. Escríbela aquí y abre su guía paso a paso, gratis.</p>
+<div class="box"><label for="p">Palabra del video</label><div class="row"><input id="p" placeholder="Ej: WHATSAPP" autocomplete="off"><button onclick="ir()">Abrir guía</button></div><div id="msg"></div></div>
+<h2>Todas las guías (1)</h2><div class="list"><a class="card" href="https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"><span class="tag">GUIA</span><h3>7 automatizaciones con IA para tu negocio</h3><p>La guía base del canal: siete automatizaciones paso a paso y sin programar.</p></a></div>
+<script>const M={"GUIA": "https://docs.google.com/document/d/1ar1n4QDyWkGYwL3nh1dYneoP0p6Y2mgIBZasoQg3wOs/view"};
+function n(s){return s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9]/g,'')}
+function ir(){const k=n(document.getElementById('p').value);if(M[k]){location.href=M[k]}else{document.getElementById('msg').textContent='No encontré esa palabra. Revisa cómo aparece en el video.'}}
+document.getElementById('p').addEventListener('keydown',e=>{if(e.key==='Enter')ir()});
+const q=new URLSearchParams(location.search).get('p');if(q){document.getElementById('p').value=q;ir()}</script>
+<footer><a href="https://www.youtube.com/@TuEmpleadoIA">YouTube</a><a href="./privacidad.html">Privacidad</a><a href="./terminos.html">Términos</a>
+<p>Guías gratuitas con fines informativos. Los precios y funciones de las herramientas cambian: revísalos en su web oficial.</p></footer>
+</div></body></html>

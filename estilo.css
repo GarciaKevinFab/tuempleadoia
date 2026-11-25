@@ -1,0 +1,19 @@
+*{box-sizing:border-box}body{margin:0;background:#0D0B1F;color:#FFFFFF;font:17px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:#C6FF3D}.w{max-width:760px;margin:0 auto;padding:28px 20px 60px}
+.top{display:flex;align-items:center;gap:12px;margin-bottom:22px}.logo{width:46px;height:46px;border-radius:12px;background:#C6FF3D;color:#0D0B1F;display:grid;place-items:center;font-weight:900;font-size:20px}
+.top b{font-size:20px;letter-spacing:.5px}.top span{display:block;color:#B9B3D9;font-size:14px}
+h1{font-size:34px;line-height:1.1;margin:8px 0 10px}h1 em{font-style:normal;color:#C6FF3D}h2{font-size:22px;margin:30px 0 10px}
+.lead{color:#B9B3D9;font-size:18px}
+.box{background:#17132E;border:2px solid rgba(198,255,61,.35);border-radius:18px;padding:20px;margin:22px 0}
+.box label{font-weight:800;display:block;margin-bottom:10px}.row{display:flex;gap:10px}
+input{flex:1;min-width:0;font:inherit;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:14px 16px;border-radius:12px;border:2px solid #7C5CFF;background:#0D0B1F;color:#fff}
+button,.btn{font:inherit;font-weight:900;padding:14px 20px;border-radius:12px;border:0;background:#C6FF3D;color:#0D0B1F;cursor:pointer;text-decoration:none;display:inline-block}
+#msg{margin-top:10px;color:#FF8A8A;min-height:1em}
+.list{display:grid;gap:12px;margin-top:10px}.card{display:block;text-decoration:none;color:inherit;background:#17132E;border-radius:16px;padding:16px 18px;border:1px solid rgba(255,255,255,.08)}
+.card:hover{border-color:#C6FF3D}.tag{display:inline-block;background:#7C5CFF;color:#fff;font-weight:900;font-size:13px;letter-spacing:2px;padding:4px 10px;border-radius:8px}
+.card h3{margin:8px 0 4px;font-size:19px}.card p{margin:0;color:#B9B3D9;font-size:15px}
+ol.pasos{padding-left:0;list-style:none;counter-reset:p}ol.pasos li{counter-increment:p;background:#17132E;border-radius:14px;padding:14px 16px 14px 62px;margin:10px 0;position:relative}
+ol.pasos li:before{content:counter(p);position:absolute;left:16px;top:14px;width:32px;height:32px;border-radius:50%;background:#C6FF3D;color:#0D0B1F;font-weight:900;display:grid;place-items:center}
+ol.pasos b{display:block;margin-bottom:4px}table{width:100%;border-collapse:collapse;font-size:15px}td,th{text-align:left;padding:10px;border-bottom:1px solid rgba(255,255,255,.1)}th{color:#B9B3D9}
+pre{white-space:pre-wrap;background:#000;border-left:4px solid #C6FF3D;padding:14px;border-radius:10px;font-size:15px}
+.nota{font-size:14px;color:#B9B3D9}footer{margin-top:40px;font-size:14px;color:#B9B3D9}footer a{margin-right:14px}
