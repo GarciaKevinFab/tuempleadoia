@@ -309,5 +309,91 @@
   "fecha": "2026-11-25",
   "tema": "Lemo-Opuscar: la skill gratis que hace videos animados para tu negocio con Claude Code",
   "video": "1ezCEOeICCQ"
+ },
+ {
+  "titulo": "Guía Meta Business Agent WhatsApp para tu bodega",
+  "resumen": "Configura un agente de IA de Meta que atiende pedidos 24/7 en WhatsApp consultando inventario y confirmando ventas.",
+  "para_quien": "Dueños de bodegas, tiendas o restaurantes en Perú que reciben consultas nocturnas o en feriados.",
+  "tiempo": "25 minutos",
+  "costo": "Gratis para empezar / desde US$15 al mes (revisa precio actual)",
+  "pasos": [
+   {
+    "titulo": "Descarga WhatsApp Business",
+    "detalle": "Instala la app WhatsApp Business en tu celular Android o iPhone. Registra el número de tu negocio y verifica tu cuenta."
+   },
+   {
+    "titulo": "Accede a Meta Business Suite",
+    "detalle": "Entra a business.facebook.com desde tu computadora. Crea o vincula tu cuenta de negocio de Meta."
+   },
+   {
+    "titulo": "Activa el Agente de IA",
+    "detalle": "En la app WhatsApp Business ve a Herramientas > Agente de IA. Escanea el código QR y acepta los términos."
+   },
+   {
+    "titulo": "Sube tu catálogo e información",
+    "detalle": "Agrega productos, precios, horarios y ubicación de tu bodega. Incluye FAQs como '¿Tienen leche evaporada?'."
+   },
+   {
+    "titulo": "Conecta inventario simple",
+    "detalle": "Usa conectores básicos o sube lista de stock actualizado. El agente consulta disponibilidad antes de confirmar pedidos."
+   },
+   {
+    "titulo": "Define tono y reglas",
+    "detalle": "Indica que responda en español peruano, amigable y que transfiera a humano si el pedido es mayor a S/200."
+   },
+   {
+    "titulo": "Prueba y ajusta",
+    "detalle": "Envía mensajes de prueba desde otro número. Revisa respuestas y corrige en la configuración del agente."
+   },
+   {
+    "titulo": "Monitorea reportes diarios",
+    "detalle": "Revisa resúmenes matutinos de chats nocturnos y ventas capturadas en Meta Business Suite."
+   }
+  ],
+  "herramientas": [
+   {
+    "nombre": "WhatsApp Business App",
+    "para_que": "Activar y configurar el agente principal",
+    "precio": "Gratis"
+   },
+   {
+    "nombre": "Meta Business Suite",
+    "para_que": "Gestionar catálogo, reglas y reportes",
+    "precio": "Gratis"
+   },
+   {
+    "nombre": "Meta One (opcional)",
+    "para_que": "Más respuestas mensuales y funciones avanzadas",
+    "precio": "Desde US$15 al mes (revisa precio actual)"
+   }
+  ],
+  "plantilla": "Eres el asistente de La Bodeguita del Barrio en Lima. Responde en español peruano amigable. Consulta el inventario antes de confirmar pedidos. Si el total supera S/200 o el cliente pide algo especial, transfiere a humano. Horario: 6am-10pm. Productos: leche S/4.50, pan S/1.20, etc.",
+  "errores": [
+   "No subir catálogo actualizado: el agente da información errónea. Solución: actualiza el catálogo cada semana.",
+   "Dejar activado en todos los chats: atiende contactos personales. Solución: configura solo chats nuevos o de anuncios.",
+   "No probar respuestas antes: pierdes ventas por mensajes confusos. Solución: envía 5 mensajes de prueba y ajusta."
+  ],
+  "fuentes": [
+   {
+    "nombre": "Meta for Business",
+    "url": "https://about.fb.com/news/2026/06/meta-business-agent/"
+   },
+   {
+    "nombre": "El Ecosistema Startup",
+    "url": "https://ecosistemastartup.com/meta-business-agent-ia-que-atiende-whatsapp-e-instagram/"
+   },
+   {
+    "nombre": "WhatsApp Help Center",
+    "url": "https://faq.whatsapp.com/1153795669452207"
+   },
+   {
+    "nombre": "TechCrunch",
+    "url": "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+   }
+  ],
+  "palabra": "CAPACIDADES",
+  "slug": "capacidades",
+  "fecha": "2026-11-26",
+  "tema": "WhatsApp e IA en temporada alta: 5 capacidades clave - El Ecosistema Startup"
  }
 ]
