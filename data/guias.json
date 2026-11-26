@@ -155,5 +155,83 @@
   "fecha": "2026-11-25",
   "tema": "Hunty: IA de reclutamiento por WhatsApp para LATAM - El Ecosistema Startup",
   "video": "TK7IEXZLIqM"
+ },
+ {
+  "titulo": "Guía: Anima tu Bodega en 3D con Claude y Three.js",
+  "resumen": "Crea escenas 3D interactivas de tu negocio directamente en el chat de Claude sin instalar nada.",
+  "para_quien": "Dueños de bodegas, tiendas o restaurantes en Perú que quieren mostrar su local en la web de forma gratis.",
+  "tiempo": "15-25 minutos",
+  "costo": "Gratis (con cuenta en claude.ai; planes Pro desde US$20/mes si usas más)",
+  "pasos": [
+   {
+    "titulo": "Abre Claude en tu navegador",
+    "detalle": "Entra a claude.ai con tu cuenta gratis. Usa el modelo más reciente disponible como Opus."
+   },
+   {
+    "titulo": "Copia y pega el prompt de ejemplo",
+    "detalle": "Usa la plantilla al final. Describe tu bodega: productos, colores y movimiento simple como rotación de estantes."
+   },
+   {
+    "titulo": "Genera el Artifact interactivo",
+    "detalle": "Claude crea un preview en 3D con Three.js. Haz clic para probar el movimiento del mouse o botones."
+   },
+   {
+    "titulo": "Ajusta con instrucciones simples",
+    "detalle": "Di: 'haz más grande el letrero de 'Bodega Lima' y añade clientes caminando'. Prueba en segundos."
+   },
+   {
+    "titulo": "Copia el código HTML final",
+    "detalle": "Pide: 'dame el código completo'. Claude entrega un archivo único que funciona en cualquier navegador."
+   },
+   {
+    "titulo": "Pégalo en tu sitio web",
+    "detalle": "Sube el archivo .html a tu hosting gratis como GitHub Pages o WordPress. Prueba en celular y PC."
+   },
+   {
+    "titulo": "Comparte y promociona",
+    "detalle": "Envía el link a clientes de WhatsApp o ponlo en Instagram. Actualiza cambiando el prompt."
+   }
+  ],
+  "herramientas": [
+   {
+    "nombre": "Claude.ai",
+    "para_que": "Generar el código Three.js y preview interactivo",
+    "precio": "Gratis (planes pagos desde US$20/mes)"
+   },
+   {
+    "nombre": "Navegador web (Chrome o Edge)",
+    "para_que": "Ver y probar la animación en tiempo real",
+    "precio": "Gratis"
+   },
+   {
+    "nombre": "Hosting web básico",
+    "para_que": "Subir el archivo HTML a internet",
+    "precio": "Gratis (GitHub Pages o similar)"
+   }
+  ],
+  "plantilla": "Crea una escena 3D interactiva con Three.js de mi bodega 'Bodega El Sol' en Lima, Perú. Muestra estantes con productos peruanos como arroz, fideos, gaseosas y snacks. Incluye un letrero grande 'Bodega El Sol - Abierto 24h'. Añade animación simple: clientes caminando, rotación de productos y luz natural. Hazla self-contained en un solo archivo HTML. Permite que el usuario rote la vista con el mouse y haga zoom. Fondo con piso de baldosas típico peruano.",
+  "errores": [
+   "No describir bien el negocio: sé específico con nombres, colores y productos peruanos para evitar resultados genéricos.",
+   "Olvidar pedir 'self-contained HTML': siempre di que sea un solo archivo para que funcione sin descargas.",
+   "No probar en móvil: revisa la animación en celular antes de subirla al sitio web."
+  ],
+  "fuentes": [
+   {
+    "nombre": "Anthropic Claude Help Center - Artifacts",
+    "url": "https://support.claude.com/en/articles/17153992-what-are-artifacts-and-how-do-i-use-them"
+   },
+   {
+    "nombre": "Three.js 3D Viewer connector en Claude Marketplace",
+    "url": "https://claude.com/marketplace/connectors/threejs-3d-viewer"
+   },
+   {
+    "nombre": "Ejemplos de Three.js con Claude en 2026",
+    "url": "https://www.youtube.com/watch?v=6VVYkw641xI"
+   }
+  ],
+  "palabra": "THREEJS",
+  "slug": "threejs",
+  "fecha": "2026-11-25",
+  "tema": "Anima en 3D con Claude y Three.js, gratis y sin instalar nada"
  }
 ]
