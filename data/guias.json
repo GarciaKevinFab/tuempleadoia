@@ -396,5 +396,88 @@
   "fecha": "2026-11-26",
   "tema": "WhatsApp e IA en temporada alta: 5 capacidades clave - El Ecosistema Startup",
   "video": "CgwAOLbYC-4"
+ },
+ {
+  "titulo": "Guía: Crea apps Windows/Mac con Claude gratis",
+  "resumen": "Convierte un artifact de Claude en app instalable para tu negocio en minutos.",
+  "para_quien": "Dueños de bodegas, tiendas, restaurantes o servicios en Perú sin experiencia en programación.",
+  "tiempo": "15-25 minutos",
+  "costo": "Gratis en plan free (beta, revisa límites de uso actuales)",
+  "pasos": [
+   {
+    "titulo": "Actualiza Claude Desktop",
+    "detalle": "Descarga o actualiza la app oficial de Claude para Mac o Windows a versión 6.28899.0 o superior. Abre la app e inicia sesión con tu cuenta gratuita."
+   },
+   {
+    "titulo": "Crea un artifact interactivo",
+    "detalle": "En el chat describe tu herramienta, por ejemplo un contador de stock. Prueba el artifact en la ventana lateral antes de instalar."
+   },
+   {
+    "titulo": "Instala como app",
+    "detalle": "Abre el artifact, ve al menú Compartir o título del artifact y selecciona 'Install as app'. Confirma la instalación."
+   },
+   {
+    "titulo": "Elige permisos",
+    "detalle": "Selecciona permisos básicos primero. Evita 'acceso completo' salvo que confíes en la herramienta y la necesites."
+   },
+   {
+    "titulo": "Prueba la app instalada",
+    "detalle": "Abre la nueva app desde escritorio o menú inicio. Úsala offline no funciona; requiere internet y sesión activa en Claude."
+   },
+   {
+    "titulo": "Edita y actualiza",
+    "detalle": "Regresa a Claude para modificar el artifact. La app instalada se actualiza automáticamente con tus cambios."
+   },
+   {
+    "titulo": "Usa el plugin Small Business",
+    "detalle": "Si tienes plan compatible, instala el plugin para flujos como cierre mensual. Escribe comandos como /close-month en Cowork."
+   }
+  ],
+  "herramientas": [
+   {
+    "nombre": "Claude Desktop",
+    "para_que": "Crear artifacts e instalar apps",
+    "precio": "Gratis (plan free)"
+   },
+   {
+    "nombre": "Artifacts",
+    "para_que": "Herramientas interactivas sin código",
+    "precio": "Incluido en todos los planes"
+   },
+   {
+    "nombre": "Install as App (beta)",
+    "para_que": "Convertir artifact en app Windows/Mac",
+    "precio": "Gratis en free, beta"
+   },
+   {
+    "nombre": "Small Business Plugin",
+    "para_que": "Flujos listos para ventas y finanzas",
+    "precio": "Planes Pro/Max/Team (verifica actual)"
+   }
+  ],
+  "plantilla": "Crea un artifact para mi bodega en Lima: un contador de stock simple con campos para producto, cantidad actual, mínimo y botón para restar al vender. Hazlo interactivo, con lista de productos típicos peruanos como arroz, aceite y gaseosas. Incluye alertas cuando el stock baje del mínimo.",
+  "errores": [
+   "No actualizar la app Claude Desktop: verifica versión en Ayuda > Buscar actualizaciones.",
+   "Elegir permisos altos sin necesidad: empieza con permisos básicos para evitar riesgos.",
+   "Usar sin internet o sin sesión: las apps instaladas requieren conexión y login en Claude."
+  ],
+  "fuentes": [
+   {
+    "nombre": "Claude Help Center",
+    "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app"
+   },
+   {
+    "nombre": "Anthropic Install as App",
+    "url": "https://claude.com/resources/articles/install-as-app"
+   },
+   {
+    "nombre": "Small Business Plugin",
+    "url": "https://claude.com/plugins/small-business"
+   }
+  ],
+  "palabra": "CLAUDE",
+  "slug": "claude",
+  "fecha": "2026-11-27",
+  "tema": "Claude ahora permite crear e instalar aplicaciones para Windows y macOS sin programar, incluso con su versión gratuita - madboxpc"
  }
 ]
